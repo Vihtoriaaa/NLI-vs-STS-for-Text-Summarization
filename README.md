@@ -1,6 +1,6 @@
 # NLI-vs-STS-for-Text-Summarization
 ## Machine Learning Project
-This is a project that compares two approaches to text summarization: Natural Language Inference (NLI) and Semantic Text Similarity (STS).
+This is a project that compares two approaches to extractive text summarization: Natural Language Inference (NLI) and Semantic Text Similarity (STS).
 
 ### Overview:
 
