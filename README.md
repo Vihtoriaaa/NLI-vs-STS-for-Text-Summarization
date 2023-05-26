@@ -12,6 +12,18 @@ The goal of text summarization is to produce a shorter version of a text that ca
 
 This project compares the performance of NLI and STS for text summarization using the MNLI dataset. The MNLI dataset is a collection of sentence pairs labeled with their entailment relationship (neutral, contradiction, or entailment) having different genres of sentences.
 
+## Models and Performance
+We trained several models for extractive text summarization, including BERT, Linear Regression, SVM, and BiLSTM. We also used SBERT for word embeddings, as GloVe performed poorly. The models were evaluated on the SNLI dataset, and the following accuracies and MAE scores were achieved:
+
+| Model             | Accuracy | MAE score |
+| ----------------- | -------- | -------- |
+| BERT Transformer            | 0.8849     | 0.0322     |
+| Bidirectional LSTM            | 0.7654     | 0.0749     |
+| Logistic (Linear) Regression with TF-IDF             | 0.6458     | 0.1445     |
+| SVM(R) Classification (Regression) with TF-IDF            | 0.4161     | 0.1851     |
+
+Please refer to the individual model implementations for more details on their architectures and training processes.
+
 ## Contributors
 
 - [Viktoriia Maksymiuk](https://github.com/Vihtoriaaa)
